@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marvel Movies List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Marvel Cinematic Universe Movies</h1>
+
+  <!-- 🔍 Search & Filter Section -->
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search movies...">
+    <select id="filter-year">
+      <option value="all">Filter by Year</option>
+      <option value="2008">2008</option>
+      <option value="2010">2010</option>
+      <option value="2011">2011</option>
+      <option value="2012">2012</option>
+      <option value="2013">2013</option>
+      <option value="2014">2014</option>
+      <option value="2015">2015</option>
+      <option value="2016">2016</option>
+      <option value="2017">2017</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+      <option value="2023">2023</option>
+    </select>
+    <select id="filter-actor">
+      <option value="all">Filter by Actor</option>
+      <option value="Robert Downey Jr.">Robert Downey Jr.</option>
+      <option value="Chris Evans">Chris Evans</option>
+      <option value="Chris Hemsworth">Chris Hemsworth</option>
+      <option value="Mark Ruffalo">Mark Ruffalo</option>
+      <option value="Scarlett Johansson">Scarlett Johansson</option>
+      <option value="Tom Holland">Tom Holland</option>
+      <option value="Benedict Cumberbatch">Benedict Cumberbatch</option>
+      <option value="Chadwick Boseman">Chadwick Boseman</option>
+      <option value="Paul Rudd">Paul Rudd</option>
+      <option value="Brie Larson">Brie Larson</option>
+    </select>
+  </div>
+
+  <!-- 🎬 Movies -->
+   <div class="phase">Phase 1</div>
+  <div class="movie-list">
+    <!-- Phase 1 -->
+
+    <div class="movie" data-year="2008" data-actor="Robert Downey Jr.">
+      <img src="./images/ironman1.jpg" alt="Iron Man">
+      <h3>Iron Man (2008)</h3>
+    </div>
+    <div class="movie" data-year="2008" data-actor="Edward Norton">
+      <img src="./images/incrediblehulk.jpg" alt="The Incredible Hulk">
+      <h3>The Incredible Hulk (2008)</h3>
+    </div>
+    <div class="movie" data-year="2010" data-actor="Robert Downey Jr.">
+      <img src="./images/ironman2.jpg" alt="Iron Man 2">
+      <h3>Iron Man 2 (2010)</h3>
+    </div>
+    <div class="movie" data-year="2011" data-actor="Chris Hemsworth">
+      <img src="./images/thor1.jpg" alt="Thor">
+      <h3>Thor (2011)</h3>
+    </div>
+    <div class="movie" data-year="2011" data-actor="Chris Evans">
+      <img src="./images/captain_america1.jpg" alt="Captain America: The First Avenger">
+      <h3>Captain America: The First Avenger (2011)</h3>
+    </div>
+    <div class="movie" data-year="2012" data-actor="Robert Downey Jr.">
+      <img src="./images/theavengers.jpg" alt="The Avengers">
+      <h3>The Avengers (2012)</h3>
+    </div>
+    </div>
+
+    <!-- Phase 2 -->
+     <div class="phase">Phase 2</div>
+     <div class="movie-list">
+    <div class="movie" data-year="2013" data-actor="Robert Downey Jr.">
+      <img src="./images/ironman3.jpg" alt="Iron Man 3">
+      <h3>Iron Man 3 (2013)</h3>
+    </div>
+    <div class="movie" data-year="2013" data-actor="Chris Hemsworth">
+      <img src="./images/thor2.jpg" alt="Thor: The Dark World">
+      <h3>Thor: The Dark World (2013)</h3>
+    </div>
+    <div class="movie" data-year="2014" data-actor="Chris Evans">
+      <img src="./images/captainamericathewintersoldier.jpg" alt="Captain America: The Winter Soldier">
+      <h3>Captain America: The Winter Soldier (2014)</h3>
+    </div>
+    <div class="movie" data-year="2014" data-actor="Chris Pratt">
+      <img src="./images/guardiansofthegalaxy.jpg" alt="Guardians of the Galaxy">
+      <h3>Guardians of the Galaxy (2014)</h3>
+    </div>
+    <div class="movie" data-year="2015" data-actor="Robert Downey Jr.">
+      <img src="./images/avengersageofultron.jpg" alt="Avengers: Age of Ultron">
+      <h3>Avengers: Age of Ultron (2015)</h3>
+    </div>
+    <div class="movie" data-year="2015" data-actor="Paul Rudd">
+      <img src="./images/ant-man.jpg" alt="Ant-Man">
+      <h3>Ant-Man (2015)</h3>
+    </div>
+    </div>
+
+    <!-- Phase 3 -->
+     <div class="phase">Phase 3</div>
+     <div class="movie-list">
+    <div class="movie" data-year="2016" data-actor="Chris Evans">
+      <img src="./images/captainamericacivilwar.jpg" alt="Captain America: Civil War">
+      <h3>Captain America: Civil War (2016)</h3>
+    </div>
+    <div class="movie" data-year="2016" data-actor="Benedict Cumberbatch">
+      <img src="./images/doctorstrange.jpg" alt="Doctor Strange">
+      <h3>Doctor Strange (2016)</h3>
+    </div>
+    <div class="movie" data-year="2017" data-actor="Chris Pratt">
+      <img src="./images/guardiansofthegalaxyvol2.jpg" alt="Guardians of the Galaxy Vol. 2">
+      <h3>Guardians of the Galaxy Vol. 2 (2017)</h3>
+    </div>
+    <div class="movie" data-year="2017" data-actor="Tom Holland">
+      <img src="./images/spider-manhomecoming.jpg" alt="Spider-Man: Homecoming">
+      <h3>Spider-Man: Homecoming (2017)</h3>
+    </div>
+    <div class="movie" data-year="2017" data-actor="Chris Hemsworth">
+      <img src="./images/thorragnarok.jpg" alt="Thor: Ragnarok">
+      <h3>Thor: Ragnarok (2017)</h3>
+    </div>
+    <div class="movie" data-year="2018" data-actor="Chadwick Boseman">
+      <img src="./images/blackpanther.jpg" alt="Black Panther">
+      <h3>Black Panther (2018)</h3>
+    </div>
+    <div class="movie" data-year="2018" data-actor="Robert Downey Jr.">
+      <img src="./images/avengersendgame.jpg" alt="Avengers: Infinity War">
+      <h3>Avengers: Infinity War (2018)</h3>
+    </div>
+    <div class="movie" data-year="2018" data-actor="Paul Rudd">
+      <img src="./images/ant-manthewasp.jpg" alt="Ant-Man and the Wasp">
+      <h3>Ant-Man and the Wasp (2018)</h3>
+    </div>
+    <div class="movie" data-year="2019" data-actor="Brie Larson">
+      <img src="./images/captainmarvel.jpg" alt="Captain Marvel">
+      <h3>Captain Marvel (2019)</h3>
+    </div>
+    <div class="movie" data-year="2019" data-actor="Robert Downey Jr.">
+      <img src="./images/avengersendgame.jpg" alt="Avengers: Endgame">
+      <h3>Avengers: Endgame (2019)</h3>
+    </div>
+    <div class="movie" data-year="2019" data-actor="Tom Holland">
+      <img src="./images/spider-manfarfromhome.jpg" alt="Spider-Man: Far From Home">
+      <h3>Spider-Man: Far From Home (2019)</h3>
+    </div>
+   </div>
+   <!-- Phase 4 -->
+   <div class="phase">Phase 4</div>
+
+   <div class="movie-list">
+    
+    <div class="movie" data-year="2021" data-actor="Scarlett Johansson">
+      <img src="./images/blackwidow.jpg" alt="Black Widow">
+      <h3>Black Widow (2021)</h3>
+    </div>
+    <div class="movie" data-year="2021" data-actor="Simu Liu">
+      <img src="./images/shangchi.jpg" alt="Shang-Chi and the Legend of the Ten Rings">
+      <h3>Shang-Chi and the Legend of the Ten Rings (2021)</h3>
+    </div>
+    <div class="movie" data-year="2021" data-actor="Gemma Chan">
+      <img src="./images/eternals.jpg" alt="Eternals">
+      <h3>Eternals (2021)</h3>
+    </div>
+    <div class="movie" data-year="2021" data-actor="Tom Holland">
+      <img src="./images/spider-mannowayhome.jpg" alt="Spider-Man: No Way Home">
+      <h3>Spider-Man: No Way Home (2021)</h3>
+    </div>
+    <div class="movie" data-year="2022" data-actor="Benedict Cumberbatch">
+      <img src="./images/doctorstrangeinthemultiverseofmadness.jpg" alt="Doctor Strange in the Multiverse of Madness">
+      <h3>Doctor Strange in the Multiverse of Madness (2022)</h3>
+    </div>
+    <div class="movie" data-year="2022" data-actor="Chris Hemsworth">
+      <img src="./images/thorloveandthunder.jpg" alt="Thor: Love and Thunder">
+      <h3>Thor: Love and Thunder (2022)</h3>
+    </div>
+    <div class="movie" data-year="2022" data-actor="Letitia Wright">
+      <img src="./images/blackpantherwakandaforever.jpg" alt="Black Panther: Wakanda Forever">
+      <h3>Black Panther: Wakanda Forever (2022)</h3>
+    </div>
+    <div class="movie" data-year="2023" data-actor="Paul Rudd">
+      <img src="./images/antmanandthewaspquantumania.jpg" alt="Ant-Man and the Wasp: Quantumania">
+      <h3>Ant-Man and the Wasp: Quantumania (2023)</h3>
+    </div>
+    <div class="movie" data-year="2023" data-actor="Chris Pratt">
+      <img src="./images/guardiansofthegalaxyvolume3.jpg" alt="Guardians of the Galaxy Vol. 3">
+      <h3>Guardians of the Galaxy Vol. 3 (2023)</h3>
+    </div>
+    <div class="movie" data-year="2023" data-actor="Brie Larson">
+      <img src="./images/themarvels.jpg" alt="The Marvels">
+      <h3>The Marvels (2023)</h3>
+    </div>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
